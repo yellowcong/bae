@@ -1,5 +1,5 @@
 """
-Django settings for yellowcong project.
+Django settings for hhxy project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '#@n6sha+w(p0)%bva+j_pd5vc59z(5bd4kli6sdow(jx4b663n'
+SECRET_KEY = 'bh@r-u&q(13gym@-a8_+yzs#@wq6doz0_1+-r!4gepqdy_m23@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+	'blog',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -48,9 +49,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'yellowcong.urls'
+ROOT_URLCONF = 'hhxy.urls'
 
-WSGI_APPLICATION = 'yellowcong.wsgi.application'
+WSGI_APPLICATION = 'hhxy.wsgi.application'
 
 
 # Database
